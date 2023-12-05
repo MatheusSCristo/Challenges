@@ -1,0 +1,50 @@
+@use "../../global/variables"
+@use "../../global/mixins"
+
+.box
+    color: #FFF
+    height: 40vh
+    background-image: url("./imgs/image-michael-jordan.svg")
+    background-size: cover
+    @include mixins.tablet
+        background-image: url("./imgs/image-michael-jordan-tablet.svg")
+
+    &-content
+        width: 100%
+        height: 100%
+        margin-left: 20%
+        display: flex
+        flex-direction: column
+        justify-content: center
+        @include mixins.tablet
+            margin-left: 5%
+
+        &-icon
+            display: flex
+            margin-bottom: 10px
+            align-items: center
+
+            &-text
+                font-weight: 500
+                font-size: 24px
+                margin: 10px
+                @include mixins.tablet
+                    font-size: 18px
+                
+        &-title
+            font-size: 32px
+            font-weight: 500
+            line-height: 34.82px
+            @include mixins.tablet
+                font-size: 24px
+
+        &-subtitle
+            font-weight: 400
+            font-size: 24px
+            line-height: 33.6px
+            @include mixins.tablet
+                    font-size: 18px
+                    line-height: 25.2px
+            @include mixins.tablet
+                    font-size:16px
+                    line-height: 22.4px

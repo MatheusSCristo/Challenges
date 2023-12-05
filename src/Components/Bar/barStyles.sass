@@ -1,0 +1,14 @@
+@use "../../global/mixins"
+.wrapper 
+    width: 100%
+    flex-basis: 5vh
+    background-color: #FFF
+    display: flex
+    justify-content: center
+    padding: 10px
+    &-text
+        font-size: 24px
+        text-align: center
+        @include mixins.tablet 
+            font-size: 16px
+        

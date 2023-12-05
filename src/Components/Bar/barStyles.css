@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  flex-basis: 5vh;
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.wrapper-text {
+  font-size: 24px;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  .wrapper-text {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=barStyles.css.map */
