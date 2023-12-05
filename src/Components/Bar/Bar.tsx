@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./barStyles.css"
 
 export const Bar = () => {

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './ImageBox.css'
 
 const ImageBox = () => {
